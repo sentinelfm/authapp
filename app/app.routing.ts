@@ -5,8 +5,10 @@ import { AuthGuard } from './auth.guard';
 
 import { HomeComponent } from './components/home.component';
 import { ProfileComponent } from './components/profile.component';
+
 //import { UserComponent } from './components/user.component';
 //import { AboutComponent } from './components/about.component';
+
 
 const appRoutes: Routes = [
     {
