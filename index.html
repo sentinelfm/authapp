@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Angular QuickStart</title>
+    <title>Angular App</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- #alban add bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- add auth0 script-->
+    <script src="https://cdn.auth0.com/js/lock/10.6/lock.min.js"></script>
 
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
@@ -20,6 +25,7 @@
   </head>
 
   <body>
+    <base href="/">
     <my-app>Loading AppComponent content here ...</my-app>
   </body>
 </html>
